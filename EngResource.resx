@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutorunFoundMsg" xml:space="preserve">
+    <value>Autorun.inf file has not been found.
+
+If you know you have an infected pendrive,
+insert it and rescan, after 10 seconds.
+
+Or scan manually for any file, using the
+"I know this is a Virus: " Box.</value>
+  </data>
+  <data name="MainFloppyMsg" xml:space="preserve">
+    <value>Continous scanning of floppy drive(s) is both time consuming, and could damage
+the floppy drive-head. For this reason... V.E.R.© ONLY SCANS THE FLOPPY ONCE!
+At the start and loading of V.E.R.©, this is to protect the floppy drive head!
+
+We recommend that you add, any floppy drive(s) to V.E.R.©'s Ignore Drive List.
+
+Would you like to add floppy drive(s) to the V.E.R.© Ignore List, now?
+</value>
+    <comment>message display when Floppy found at begining  and not added to ignore list</comment>
+  </data>
+  <data name="hlpcFA_Run_remover" xml:space="preserve">
+    <value>Reset(s) ALL Windows© default tools and win update!
+
+The vital tools in Windows® like regedit, taskmgr, 
+Cmd (Command Prompt etc.) &amp; AutoUpdate, are often 
+disabled by viruses or trojans deliberately!
+
+V.E.R.© fixes them for you! With just one Click!</value>
+    <comment>run remover button</comment>
+  </data>
+  <data name="Seperator" xml:space="preserve">
+    <value>
+----------------------------------------------------------------------------
+</value>
+  </data>
+  <data name="hlpcFA_SFC" xml:space="preserve">
+    <value>Click Button. To RUN the Windows® System File Checker.
+                                    
+IMPORTANT NOTE: You MUST have your MASTER Windows®XP
+Installation (Holographic LOGOed ) CD/DVD to run this.
+
+For more details on (sfc.exe) see PDF or Help file.</value>
+  </data>
+  <data name="hlpcFA_Sys_Hidden_Show" xml:space="preserve">
+    <value>Shows you ALL suspicious files in your O/System folders.
+
+Carefully, check any .bat, .cmd, .com, .dll, &amp; .exe, files.
+Check online, any of the above, could be a virus infection!</value>
+  </data>
+  <data name="msgFloppyCheckbox" xml:space="preserve">
+    <value>Continous scanning of floppy drive(s) is both time consuming, and could damage
+the floppy drive-head. For this reason... V.E.R.© ONLY SCANS THE FLOPPY ONCE!
+At the start and loading of V.E.R.©, this is to protect the floppy drive head!
+
+We recommend that you to ignore, any floppy drive(s).
+
+Would you like to add floppy drive(s) to the V.E.R.© Scan List, now?</value>
+  </data>
+  <data name="hlpcFA_BlockAVirusbutton" xml:space="preserve">
+    <value>Blocks a known virus, once you have confirmed the
+correct information, from sources on the internet.</value>
+  </data>
+  <data name="hlpcFA_BrowseDir" xml:space="preserve">
+    <value>Browse to the Folder, that you want to Scan.</value>
+  </data>
+  <data name="hlpcFA_DDFileDetail" xml:space="preserve">
+    <value>Show the file details, as per Windows® properties.</value>
+  </data>
+  <data name="hlpcFA_delAF" xml:space="preserve">
+    <value>Delete ALL files in this Folder! ! Warning!
+
+Use extreme Caution! When Deleting files.</value>
+  </data>
+  <data name="hlpcFA_DeleteFileInList" xml:space="preserve">
+    <value>Deletes selected, file(s).</value>
+  </data>
+  <data name="hlpcFA_DelFileWithExt" xml:space="preserve">
+    <value>Click, to Delete ALL files with specified extension(s).</value>
+  </data>
+  <data name="hlpcFA_Enable_autorun" xml:space="preserve">
+    <value>Disable/Enable (On/Off) Windows® Autoplay files.
+
+Turns on or off the autoplay for inserted media.
+
+VSLab: Recommend that you turn Off 'Autoplay'!
+See V.E.R.© Help or PDF file for more detail.</value>
+  </data>
+  <data name="hlpcFA_enable_msconfig" xml:space="preserve">
+    <value>Repair Windows® MSConfig, &amp; then RUN it. 
+
+Use this Windows® tool, to modify your
+OS settings, for BOOTing and Startup.</value>
+  </data>
+  <data name="hlpcFA_Enable_regedit" xml:space="preserve">
+    <value>Repair Windows® Registry Editor, &amp; then RUN it. 
+
+Use this Windows® tool, to edit the registry. 
+Take great care, when editing the registry!</value>
+  </data>
+  <data name="hlpcFA_Enable_taskmgr" xml:space="preserve">
+    <value>Repair Windows® Taskmanager, &amp; then RUN it. 
+
+Use this Windows® tool, to both view, &amp;/or 
+kill any suspect running processes. etc.</value>
+  </data>
+  <data name="hlpcFA_EndButton" xml:space="preserve">
+    <value>Shutdown V.E.R.© ALL it's scans &amp; services, then EXIT.</value>
+  </data>
+  <data name="hlpcFA_ExtBox" xml:space="preserve">
+    <value>Add extension(s) of file[s] here.
+E.g. 
+
+.txt
+.bmp
+.mp3</value>
+  </data>
+  <data name="hlpcFA_FileAttributeApply" xml:space="preserve">
+    <value>Applies the chosen attributes, to any selected file(s).</value>
+  </data>
+  <data name="hlpcFA_Filenamebox" xml:space="preserve">
+    <value>Type the filename, which you think may be a virus.</value>
+  </data>
+  <data name="hlpcFA_FilesAllowedToDeleteBox" xml:space="preserve">
+    <value>Add file(s) that should be Deleted, if and only 
+if, (IFF) they are in the selected folder.</value>
+  </data>
+  <data name="hlpcFA_FindCloneButton" xml:space="preserve">
+    <value>Finds cloned copies of a virus, that you might have found,
+using V.E.R.© or anti-Virus/anti-Tojan tools that you have. 
+
+This will enable you to trace &amp; remove, any further copy or
+copies, of the virus (that may be) hidden, in other folders!</value>
+  </data>
+  <data name="hlpcFA_find_autorun" xml:space="preserve">
+    <value>Disable/Enable Autorun.inf file(s) on devices.
+
+VSLab: Recommend that you Disable Autorun.inf!
+See V.E.R.© help or PDF file for more details.</value>
+  </data>
+  <data name="hlpcFA_FolderInfoButton" xml:space="preserve">
+    <value>Use to get full file or folder details.  You can find
+specific types of files, with non-standard attributes.</value>
+  </data>
+  <data name="hlpcFA_FolderOptionsButton" xml:space="preserve">
+    <value>Gives user, back control of the Windows® Folder Options. 
+
+Using this button, starts Windows® Folder Options Window.</value>
+  </data>
+  <data name="hlpcFA_GenerateprocessListButton" xml:space="preserve">
+    <value>Generates a current, running processes list.
+
+Which is then displayed, in Windows® Notepad. 
+
+This allows you to track &amp; trace any errant or
+'nasty' processes, that should NOT be there!</value>
+  </data>
+  <data name="hlpcFA_GetdrvProperty" xml:space="preserve">
+    <value>Displays, the current drive properties.</value>
+  </data>
+  <data name="hlpcFA_GetRemovalMedia" xml:space="preserve">
+    <value>Detects ALL removable media ( i.e. Pen Drive) connected to OS.</value>
+  </data>
+  <data name="hlptFA_GroupPolicyEditerToolStripMenuItem" xml:space="preserve">
+    <value>Allows you authority, to edit Group Policy Objects,
+which can be linked to a Site, Domain, or Organisation 
+Unit, in the Active folder, or stored on a computer.</value>
+  </data>
+  <data name="hlpcFA_HideButton" xml:space="preserve">
+    <value>Send To Tray &amp; Minimize, V.E.R.© then moves to
+the background, ALL V.E.R.©'s services &amp; scans.</value>
+  </data>
+  <data name="hlpcFA_HideDriveButton" xml:space="preserve">
+    <value>Hides drive(s) from Windows® Explorer &amp; V.E.R.©.</value>
+  </data>
+  <data name="hlpcFA_InfBox" xml:space="preserve">
+    <value>Shows present Autorun.inf file, in each USB drive.
+
+Selecting these file(s) you can obtain information
+about, any associated processes and other file(s).</value>
+  </data>
+  <data name="hlptFA_MakeRegisrtyBackupToolStripMenuItem" xml:space="preserve">
+    <value>Click, to make a partial - Registry backup.
+
+Note: It only stores SOME sensitive registry data,
+in a special type of backup file, only for V.E.R.©.</value>
+  </data>
+  <data name="hlpcFA_MaximizeButton" xml:space="preserve">
+    <value>Maximize V.E.R.©. Make V.E.R.© fill current display.</value>
+  </data>
+  <data name="hlpcFA_MediaInfoButton" xml:space="preserve">
+    <value>Click this Button to obtain removable media detail.
+
+Using this button, you can unHide any virus files, etc.
+Which may be a virus, or viral-like in their activities.</value>
+  </data>
+  <data name="hlpcFA_MinimizeButton" xml:space="preserve">
+    <value>Minimizes V.E.R.© To the Windows® Taskbar.</value>
+  </data>
+  <data name="hlpcFA_onehit" xml:space="preserve">
+    <value>Click this, and you can Delete all the shown file(s)
+and any associated processes (to it) with one click.</value>
+  </data>
+  <data name="hlpcFA_OnlySystemHidden" xml:space="preserve">
+    <value>Show ALL files, in current selected path, 
+with both System + Hidden attributes set.</value>
+  </data>
+  <data name="hlpcFA_OptionButton" xml:space="preserve">
+    <value>V.E.R.© configuration, and it's RUNNING options area.</value>
+  </data>
+  <data name="hlpcFA_ProcessCommandLine" xml:space="preserve">
+    <value>The Command Line of a process, is the run
+or loading instruction, for that process.</value>
+  </data>
+  <data name="hlpcFA_Protectdrive" xml:space="preserve">
+    <value>When you click on this Button, V.E.R.© will then
+create a special protected folder named "AutoRun.inf"
+on your USB drive(s) &amp; your hard-drive(s) partitions.
+
+Prevents future infections, of the Autorun.inf type.</value>
+  </data>
+  <data name="hlpcFA_RefreshButtonMain" xml:space="preserve">
+    <value>Refreshes the Virus Effect Remover© Status.</value>
+  </data>
+  <data name="hlpcFA_RemoveSystemHidden" xml:space="preserve">
+    <value>Click to remove files, with these attributes.
+ 
+This only Deletes 'S+H' attribute files, ANY
+Hidden ONLY attribute files, are NOT Deleted!</value>
+  </data>
+  <data name="hlpcFA_RenameFileInList" xml:space="preserve">
+    <value>Renames the selected filename, to "Renamed "+"Original filename."
+ 
+Warning! Use Caution! When renaming any files, are they needed?</value>
+  </data>
+  <data name="hlptFA_RestoreBackupToolStripMenuItem" xml:space="preserve">
+    <value>Restore previous Partial - Registry backup to optimal.
+
+Note: Restores only SOME special registry data, back
+that you backed up, with the V.E.R.© Registry backup.</value>
+  </data>
+  <data name="hlpcFA_RunNewProcessButton" xml:space="preserve">
+    <value>The same as Windows® RUN command, runs despite virus or trojan!</value>
+  </data>
+  <data name="hlpcFA_scanagain" xml:space="preserve">
+    <value>Using this Tab you can rescan any process and it's
+associated files. If you think, it may be a virus.</value>
+  </data>
+  <data name="hlpcFA_ScanServiceButton" xml:space="preserve">
+    <value>This lists ALL the running services/processes in your OS.</value>
+  </data>
+  <data name="hlpcFA_ScanStartupButton" xml:space="preserve">
+    <value>Scans, and then lists ALL the Startup items in your OS.</value>
+  </data>
+  <data name="hlpcFA_SecurityPermissionsButton" xml:space="preserve">
+    <value>Provides you the authority to modify NTFS file permissions,
+of files or folders. For Very ADVANCED* Windows users only!</value>
+  </data>
+  <data name="hlpcFA_ShowAllFile" xml:space="preserve">
+    <value>Shows ALL files, in the current selected path.</value>
+  </data>
+  <data name="hlpcFA_ShowAllHiddenFile" xml:space="preserve">
+    <value>Show ALL files in selected path, with Hidden attribute set.</value>
+  </data>
+  <data name="hlpcFA_ShowAlllSytemFile" xml:space="preserve">
+    <value>Show ALL files in selected path, with System attribute set.</value>
+  </data>
+  <data name="hlpcFA_ShowFolderOption" xml:space="preserve">
+    <value>Click to open the Windows© OS Folder Options.
+ 
+Use this button, if you suspect that your OS
+Folder Options, might have been disabled.</value>
+  </data>
+  <data name="hlpcFA_UnlockModuleButton" xml:space="preserve">
+    <value>You can Unlock any module, associated with a process,
+even, WITHOUT terminating, that process itself.</value>
+  </data>
+  <data name="hlpcFA_USBStorageDeviceOption" xml:space="preserve">
+    <value>Toggle on/off, the detection of ANY OS USB storage device.
+
+Useful to prevent others, from infecting your Windows® OS.</value>
+  </data>
+  <data name="hlpcFA_VisualiseAllFile" xml:space="preserve">
+    <value>Viruses HIDE using the OS Hidden+System attributes.
+ 
+Click this button to REVEAL ANY such 'S+H' files,
+if ANY file appears, and then disappears again.
+
+Then YOU KNOW it's a virus &amp; "Live &amp; Active" in OS!</value>
+  </data>
+  <data name="msgEnableProcessFilter" xml:space="preserve">
+    <value>You are now trying to disable Process filter.
+This will NOT protect you from system termination.
+
+We strongly recommend that you, ENABLE Process filter!
+Despite our recommendation, do you still want to disable, Process filter?</value>
+  </data>
+  <data name="hlpcFA_AddStartup" xml:space="preserve">
+    <value>Adds V.E.R©. to the Windows® Startup list.</value>
+  </data>
+  <data name="hlpcFA_send2tray" xml:space="preserve">
+    <value>This sends V.E.R.© application to background at startup.</value>
+  </data>
+  <data name="hlpcFA_Help_box" xml:space="preserve">
+    <value>Tick to disable, the bubble-help tool-tips.</value>
+  </data>
+  <data name="hlpcFA_IGN_CDROM" xml:space="preserve">
+    <value>Any Autorun.inf file(s) present in CD or DVD will be ignored.</value>
+  </data>
+  <data name="hlpcFA_ScanTime" xml:space="preserve">
+    <value>Set the V.E.R.© background Refresh time interval.</value>
+  </data>
+  <data name="hlpcFA_EnableProcessFilter" xml:space="preserve">
+    <value>It is highly recommended that you Enable process filter!
+This protects the OS, from improper process termination.</value>
+  </data>
+  <data name="hlpcFA_CheckBox6" xml:space="preserve">
+    <value>Sets the V.E.R.© Process List, refresh interval.</value>
+  </data>
+  <data name="hlpcFA_CheckBox4" xml:space="preserve">
+    <value>V.E.R.© will scan drives A: &amp; B:
+
+VSLab: Recommend, you ONLY turn this on,
+while you are scanning floppy diskettes.</value>
+  </data>
+  <data name="hlpcFA_GroupBox12" xml:space="preserve">
+    <value>Selects the V.E.R.© colour theme.</value>
+  </data>
+  <data name="hlpcFA_GroupBox8" xml:space="preserve">
+    <value>You can run any program(s) from here. This is
+similar to, the New Task option in Task Manager.</value>
+  </data>
+  <data name="hlpcFA_RenameIEButton" xml:space="preserve">
+    <value>Some virus(s) modify the Internet Explorer Title Bar.
+Users can cure these changes, by using this button.</value>
+  </data>
+  <data name="hlpcFA_CommandPromptButton" xml:space="preserve">
+    <value>Open the Command Prompt (CMD) Window.</value>
+  </data>
+  <data name="hlpcFA_DXDiagButton" xml:space="preserve">
+    <value>Runs the DirectX Diagnostic Tool.</value>
+  </data>
+  <data name="hlpcFA_MSInfoButton" xml:space="preserve">
+    <value>Run the, (OS) System Information Tool.
+
+Note: Not installed in all Windows® OSes!</value>
+  </data>
+  <data name="hlpcFA_FileProtectorButton" xml:space="preserve">
+    <value>Use File Protector popup, to set any type of file attribute.
+For protecting valuable files, by making them READ only. etc.
+
+Or this tool can be used to REMOVE file attributes, that you 
+DO NOT want on a file, or file(s), folder, or folder(s) etc.</value>
+  </data>
+  <data name="hlpcFA_WCleanButton" xml:space="preserve">
+    <value>Run the V.E.R.© Windows Cleaner tool.</value>
+  </data>
+  <data name="hlpcFA_AutorunBox1" xml:space="preserve">
+    <value>Shows Autorun.inf file, &amp; any information about it's Status.</value>
+  </data>
+  <data name="hlpcFA_CheckBox1" xml:space="preserve">
+    <value>Tick if you want to Delete all 
+Autorun.inf file, with just one click.</value>
+  </data>
+  <data name="hlpcFA_FileFoundLV" xml:space="preserve">
+    <value>This list will display file(s) associated with 
+the Autorun.inf file, or the scanned file name.</value>
+  </data>
+  <data name="hlpcFA_ProList" xml:space="preserve">
+    <value>This list will display all processes using file, 
+with the same name.</value>
+  </data>
+  <data name="hlpcFA_KillThis" xml:space="preserve">
+    <value>Kills the currently selected process. Or if more
+than just one process is ticked, kills all ticked.</value>
+  </data>
+  <data name="hlpcFA_ProcessDetailList" xml:space="preserve">
+    <value>Display complete details of currently selected process.</value>
+  </data>
+  <data name="hlpcFA_CheckBox2" xml:space="preserve">
+    <value>Tick this if you want to Delete the parent file of the process.
+
+Warning! Use extreme caution, when Deleting multiple files!</value>
+  </data>
+  <data name="hlpcFA_ModuleList" xml:space="preserve">
+    <value>Display associated module(s) with the current selected process.</value>
+  </data>
+  <data name="hlpcFA_ShowHideFile" xml:space="preserve">
+    <value>Show any Hidden Files and Folders.</value>
+  </data>
+  <data name="hlpcFA_SystemHided" xml:space="preserve">
+    <value>Show any System + Hidden Files and Folders.</value>
+  </data>
+  <data name="hlpcFA_FileExt" xml:space="preserve">
+    <value>Display file extension with file name.</value>
+  </data>
+  <data name="hlpcFA_BT1" xml:space="preserve">
+    <value>Browse to the file(s) to Delete.</value>
+  </data>
+  <data name="hlpcFA_BR2" xml:space="preserve">
+    <value>Browse to a Folder.</value>
+  </data>
+  <data name="hlpcFA_IncSd1" xml:space="preserve">
+    <value>V.E.R.© will recursively Delete all files in all child folder(s).</value>
+  </data>
+  <data name="hlpcFA_REDir1" xml:space="preserve">
+    <value>V.E.R.© will Delete any empty folder, if found at current location.</value>
+  </data>
+  <data name="hlpcFA_DelAllEmptyDir" xml:space="preserve">
+    <value>This will Delete all empty folder(s) of current selected Folder.</value>
+  </data>
+  <data name="hlpcFA_IncSubDir2" xml:space="preserve">
+    <value>V.E.R.© will recursively Delete all files, with 
+the specified extension(s) in all child folders.</value>
+  </data>
+  <data name="hlpcFA_DelEmptyDir2" xml:space="preserve">
+    <value>V.E.R.© will Delete any empty folder, if found in current location.</value>
+  </data>
+  <data name="hlpcFA_RecycleBinBox" xml:space="preserve">
+    <value>Sends all Deleted file(s), to the Windows® Recycle Bin.
+
+Note :
+Sending file(s) to Recycle bin is a time consuming process.
+This could or likely will take additional time to complete!</value>
+  </data>
+  <data name="hlpcFA_FDel" xml:space="preserve">
+    <value>Force Delete file(s) and folder(s) by gaining the NTFS
+Security, &amp; searching as module of any running process.</value>
+  </data>
+  <data name="msg_FileDoesNotExist" xml:space="preserve">
+    <value>File does not exist.</value>
+  </data>
+  <data name="msg_FolderDoesNotExist" xml:space="preserve">
+    <value>Folder does not exist.</value>
+  </data>
+  <data name="msg_PathDoesNotExist" xml:space="preserve">
+    <value>Path does not exist.</value>
+  </data>
+  <data name="hlpcFA_DisableExitDialog" xml:space="preserve">
+    <value>If this box is ticked, then V.E.R.© will
+NOT then popup, an exit confirmation box.
+
+Exit selection, happens immediately!</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>
